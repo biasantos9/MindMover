@@ -1,0 +1,377 @@
+Absolute power (alfa+beta+lowerdelta):
+
+Support Vector Machine 
+cross validation accuracies SVM: [0.34375 0.28125 0.28125 0.28125 0.21875]
+mean cross validation SVM: 0.28125
+Classification report SVM : 
+              precision    recall  f1-score   support
+
+        down       0.29      0.40      0.33        10
+        left       0.29      0.20      0.24        10
+       right       0.20      0.20      0.20        10
+          up       0.22      0.20      0.21        10
+
+    accuracy                           0.25        40
+   macro avg       0.25      0.25      0.24        40
+weighted avg       0.25      0.25      0.24        40
+
+Linear Discrimminant Analysis:
+cross validation accuracies LDA: [0.34375 0.125   0.28125 0.1875  0.25   ]
+mean cross validation LDA: 0.2375
+Classification report LDA: 
+              precision    recall  f1-score   support
+
+        down       0.00      0.00      0.00        10
+        left       0.00      0.00      0.00        10
+       right       0.30      0.70      0.42        10
+          up       0.00      0.00      0.00        10
+
+    accuracy                           0.17        40
+   macro avg       0.08      0.17      0.11        40
+weighted avg       0.08      0.17      0.11        40
+
+K-nearest neighbours: 
+cross validation accuracies KNN: [0.1875  0.21875 0.28125 0.21875 0.25   ]
+mean cross validation KNN: 0.23125
+Classification report KNN: 
+              precision    recall  f1-score   support
+
+        down       0.20      0.30      0.24        10
+        left       0.00      0.00      0.00        10
+       right       0.23      0.30      0.26        10
+          up       0.17      0.10      0.12        10
+
+    accuracy                           0.17        40
+   macro avg       0.15      0.17      0.16        40
+weighted avg       0.15      0.17      0.16        40
+-------------------------------------------------------------------------------
+Alpha/beta:
+Support Vector Machine 
+cross validation accuracies SVM: [0.25    0.34375 0.25    0.28125 0.3125 ]
+mean cross validation SVM: 0.2875
+Classification report SVM : 
+              precision    recall  f1-score   support
+
+        down       0.57      0.40      0.47        10
+        left       0.35      0.70      0.47        10
+       right       0.40      0.20      0.27        10
+          up       0.50      0.40      0.44        10
+
+    accuracy                           0.42        40
+   macro avg       0.46      0.43      0.41        40
+weighted avg       0.46      0.42      0.41        40
+
+Linear Discrimminant Analysis:
+cross validation accuracies LDA: [0.25    0.25    0.21875 0.15625 0.28125]
+mean cross validation LDA: 0.23125
+Classification report LDA: 
+              precision    recall  f1-score   support
+
+        down       0.22      0.20      0.21        10
+        left       0.24      0.50      0.32        10
+       right       0.40      0.20      0.27        10
+          up       0.20      0.10      0.13        10
+
+    accuracy                           0.25        40
+   macro avg       0.27      0.25      0.23        40
+weighted avg       0.27      0.25      0.23        40
+
+K-nearest neighbours: 
+cross validation accuracies KNN: [0.3125 0.375  0.375  0.375  0.3125]
+mean cross validation KNN: 0.35
+Classification report KNN: 
+              precision    recall  f1-score   support
+
+        down       0.15      0.20      0.17        10
+        left       0.43      0.60      0.50        10
+       right       0.20      0.10      0.13        10
+          up       0.50      0.40      0.44        10
+
+    accuracy                           0.33        40
+   macro avg       0.32      0.33      0.31        40
+weighted avg       0.32      0.33      0.31        40
+----------------------------------------------------------------------------
+mean alpha:
+Support Vector Machine 
+cross validation accuracies SVM: [0.25    0.34375 0.21875 0.375   0.3125 ]
+mean cross validation SVM: 0.3
+Classification report SVM : 
+              precision    recall  f1-score   support
+
+        down       0.24      0.40      0.30        10
+        left       0.16      0.30      0.21        10
+       right       0.33      0.10      0.15        10
+          up       0.00      0.00      0.00        10
+
+    accuracy                           0.20        40
+   macro avg       0.18      0.20      0.16        40
+weighted avg       0.18      0.20      0.16        40
+
+Linear Discrimminant Analysis:
+cross validation accuracies LDA: [0.09375 0.34375 0.375   0.1875  0.25   ]
+mean cross validation LDA: 0.25
+Classification report LDA: 
+              precision    recall  f1-score   support
+
+        down       0.14      0.10      0.12        10
+        left       0.50      0.30      0.37        10
+       right       0.19      0.30      0.23        10
+          up       0.36      0.40      0.38        10
+
+    accuracy                           0.28        40
+   macro avg       0.30      0.28      0.28        40
+weighted avg       0.30      0.28      0.28        40
+
+K-nearest neighbours: 
+cross validation accuracies KNN: [0.21875 0.34375 0.25    0.4375  0.125  ]
+mean cross validation KNN: 0.275
+Classification report KNN: 
+              precision    recall  f1-score   support
+
+        down       0.55      0.60      0.57        10
+        left       0.11      0.10      0.11        10
+       right       0.17      0.20      0.18        10
+          up       0.38      0.30      0.33        10
+
+    accuracy                           0.30        40
+   macro avg       0.30      0.30      0.30        40
+weighted avg       0.30      0.30      0.30        40
+-----------------------------------------------------------------------------
+Mean beta:
+
+Support Vector Machine 
+cross validation accuracies SVM: [0.3125  0.40625 0.46875 0.40625 0.28125]
+mean cross validation SVM: 0.375
+Classification report SVM : 
+              precision    recall  f1-score   support
+
+        down       0.23      0.30      0.26        10
+        left       0.28      0.70      0.40        10
+       right       0.00      0.00      0.00        10
+          up       0.00      0.00      0.00        10
+
+    accuracy                           0.25        40
+   macro avg       0.13      0.25      0.17        40
+weighted avg       0.13      0.25      0.17        40
+
+Linear Discrimminant Analysis:
+cross validation accuracies LDA: [0.25    0.4375  0.34375 0.21875 0.34375]
+mean cross validation LDA: 0.31875
+Classification report LDA: 
+              precision    recall  f1-score   support
+
+        down       0.21      0.30      0.25        10
+        left       0.27      0.40      0.32        10
+       right       0.00      0.00      0.00        10
+          up       0.17      0.10      0.12        10
+
+    accuracy                           0.20        40
+   macro avg       0.16      0.20      0.17        40
+weighted avg       0.16      0.20      0.17        40
+
+K-nearest neighbours: 
+cross validation accuracies KNN: [0.3125  0.25    0.25    0.40625 0.21875]
+mean cross validation KNN: 0.2875
+Classification report KNN: 
+              precision    recall  f1-score   support
+
+        down       0.27      0.60      0.37        10
+        left       0.43      0.30      0.35        10
+       right       0.00      0.00      0.00        10
+          up       0.17      0.10      0.12        10
+
+    accuracy                           0.25        40
+   macro avg       0.22      0.25      0.21        40
+weighted avg       0.22      0.25      0.21        40
+--------------------------------------------------------------------------------
+var alpha:
+Support Vector Machine 
+cross validation accuracies SVM: [0.25    0.3125  0.25    0.21875 0.21875]
+mean cross validation SVM: 0.25
+Classification report SVM : 
+              precision    recall  f1-score   support
+
+        down       0.26      1.00      0.41        10
+        left       0.00      0.00      0.00        10
+       right       0.00      0.00      0.00        10
+          up       0.00      0.00      0.00        10
+
+    accuracy                           0.25        40
+   macro avg       0.06      0.25      0.10        40
+weighted avg       0.06      0.25      0.10        40
+
+Linear Discrimminant Analysis:
+cross validation accuracies LDA: [0.1875  0.125   0.21875 0.28125 0.15625]
+mean cross validation LDA: 0.19375
+Classification report LDA: 
+              precision    recall  f1-score   support
+
+        down       0.25      0.20      0.22        10
+        left       0.17      0.10      0.12        10
+       right       0.22      0.40      0.29        10
+          up       0.38      0.30      0.33        10
+
+    accuracy                           0.25        40
+   macro avg       0.25      0.25      0.24        40
+weighted avg       0.25      0.25      0.24        40
+
+K-nearest neighbours: 
+cross validation accuracies KNN: [0.34375 0.25    0.25    0.375   0.15625]
+mean cross validation KNN: 0.275
+Classification report KNN: 
+              precision    recall  f1-score   support
+
+        down       0.50      0.50      0.50        10
+        left       0.10      0.10      0.10        10
+       right       0.08      0.10      0.09        10
+          up       0.29      0.20      0.24        10
+
+    accuracy                           0.23        40
+   macro avg       0.24      0.22      0.23        40
+weighted avg       0.24      0.23      0.23        40
+------------------------------------------------------------------------------
+variance beta:
+
+Support Vector Machine 
+cross validation accuracies SVM: [0.34375 0.3125  0.40625 0.53125 0.28125]
+mean cross validation SVM: 0.375
+Classification report SVM : 
+              precision    recall  f1-score   support
+
+        down       0.50      0.30      0.37        10
+        left       0.29      0.80      0.42        10
+       right       0.50      0.10      0.17        10
+          up       0.25      0.10      0.14        10
+
+    accuracy                           0.33        40
+   macro avg       0.38      0.33      0.28        40
+weighted avg       0.38      0.33      0.28        40
+
+Linear Discrimminant Analysis:
+cross validation accuracies LDA: [0.28125 0.46875 0.15625 0.3125  0.375  ]
+mean cross validation LDA: 0.31875
+Classification report LDA: 
+              precision    recall  f1-score   support
+
+        down       0.11      0.20      0.14        10
+        left       0.27      0.30      0.29        10
+       right       0.29      0.20      0.24        10
+          up       0.00      0.00      0.00        10
+
+    accuracy                           0.17        40
+   macro avg       0.17      0.17      0.17        40
+weighted avg       0.17      0.17      0.17        40
+
+K-nearest neighbours: 
+cross validation accuracies KNN: [0.40625 0.28125 0.34375 0.3125  0.25   ]
+mean cross validation KNN: 0.31875
+Classification report KNN: 
+              precision    recall  f1-score   support
+
+        down       0.31      0.40      0.35        10
+        left       0.31      0.40      0.35        10
+       right       0.00      0.00      0.00        10
+          up       0.38      0.30      0.33        10
+
+    accuracy                           0.28        40
+   macro avg       0.25      0.28      0.26        40
+weighted avg       0.25      0.28      0.26        40
+
+-------------------------------------------------------------------------------
+ratio alpha/delta
+
+Support Vector Machine 
+cross validation accuracies SVM: [0.34375 0.34375 0.3125  0.25    0.21875]
+mean cross validation SVM: 0.29375
+Classification report SVM : 
+              precision    recall  f1-score   support
+
+        down       0.33      0.50      0.40        10
+        left       0.14      0.30      0.19        10
+       right       0.25      0.10      0.14        10
+          up       0.00      0.00      0.00        10
+
+    accuracy                           0.23        40
+   macro avg       0.18      0.23      0.18        40
+weighted avg       0.18      0.23      0.18        40
+
+Linear Discrimminant Analysis:
+cross validation accuracies LDA: [0.25    0.21875 0.375   0.25    0.125  ]
+mean cross validation LDA: 0.24375
+Classification report LDA: 
+              precision    recall  f1-score   support
+
+        down       0.22      0.20      0.21        10
+        left       0.18      0.20      0.19        10
+       right       0.15      0.20      0.17        10
+          up       0.29      0.20      0.24        10
+
+    accuracy                           0.20        40
+   macro avg       0.21      0.20      0.20        40
+weighted avg       0.21      0.20      0.20        40
+
+K-nearest neighbours: 
+cross validation accuracies KNN: [0.28125 0.3125  0.25    0.28125 0.28125]
+mean cross validation KNN: 0.28125
+Classification report KNN: 
+              precision    recall  f1-score   support
+
+        down       0.23      0.30      0.26        10
+        left       0.38      0.50      0.43        10
+       right       0.17      0.10      0.12        10
+          up       0.38      0.30      0.33        10
+
+    accuracy                           0.30        40
+   macro avg       0.29      0.30      0.29        40
+weighted avg       0.29      0.30      0.29        40
+------------------------------------------------------------------------------
+ratio beta/delta:
+
+Support Vector Machine 
+cross validation accuracies SVM: [0.34375 0.1875  0.4375  0.28125 0.34375]
+mean cross validation SVM: 0.31875
+Classification report SVM : 
+              precision    recall  f1-score   support
+
+        down       0.00      0.00      0.00        10
+        left       0.00      0.00      0.00        10
+       right       0.00      0.00      0.00        10
+          up       0.24      0.80      0.37        10
+
+    accuracy                           0.20        40
+   macro avg       0.06      0.20      0.09        40
+weighted avg       0.06      0.20      0.09        40
+
+Linear Discrimminant Analysis:
+cross validation accuracies LDA: [0.1875  0.25    0.3125  0.1875  0.28125]
+mean cross validation LDA: 0.24375
+Classification report LDA: 
+              precision    recall  f1-score   support
+
+        down       0.25      0.10      0.14        10
+        left       0.17      0.20      0.18        10
+       right       0.38      0.30      0.33        10
+          up       0.19      0.30      0.23        10
+
+    accuracy                           0.23        40
+   macro avg       0.24      0.23      0.22        40
+weighted avg       0.24      0.23      0.22        40
+
+K-nearest neighbours: 
+cross validation accuracies KNN: [0.3125  0.1875  0.25    0.15625 0.1875 ]
+mean cross validation KNN: 0.21875
+Classification report KNN: 
+              precision    recall  f1-score   support
+
+        down       0.00      0.00      0.00        10
+        left       0.33      0.40      0.36        10
+       right       0.24      0.40      0.30        10
+          up       0.10      0.10      0.10        10
+
+    accuracy                           0.23        40
+   macro avg       0.17      0.23      0.19        40
+weighted avg       0.17      0.23      0.19        40
+
+
+
+
